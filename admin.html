@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+</head>
+<body onload="renderUsersTable()">
+    <h1>Welcome back: admin!</h1>
+    <section class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>userName</th>
+                    <th>password</th>
+                    <th>lastLoginTime</th>
+                    <th>isAdmin</th>
+                </tr>
+            </thead>
+            <tbody class="users">
+                
+            </tbody>
+          </table>
+    </section>
+
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/safe-content.service.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
